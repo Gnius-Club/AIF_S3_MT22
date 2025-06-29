@@ -1,24 +1,287 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-S3-M22</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Misión 22: Un Gemelo Digital Responsable</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Esta misión final se centra en la ética y el diseño responsable en la visualización de datos.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Secuencia y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Que los estudiantes reflexionen sobre la responsabilidad ética en la visualización de datos.</li>
+                                        <li>Que apliquen una mejora ética/funcional a su Gemelo Digital para asegurar que la información se presente de forma clara y no engañosa.</li>
+                                        <li>Que realicen una autoevaluación de su producto final desde una perspectiva de diseño responsable.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡A.I. GYM:</strong> Análisis profundo y contextualización de la ética en la visualización de datos.</li>
+                                        <li><strong class="tactic-highlight">⚡BRAIN SPARK (Auditoría Ética):</strong> Identificación de áreas de mejora y re-diseño responsable.</li>
+                                        <li><strong class="tactic-highlight">⚡IMPLEMENTACIÓN FINAL:</strong> Aplicación de la mejora de claridad y responsabilidad.</li>
+                                        <li><strong class="tactic-highlight">⚡GNIUS STORM:</strong> Showcase de mejoras, síntesis de "insights" y reflexión final del curso.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>La versión final del Gemelo Digital, con al menos una mejora de claridad implementada (ej. añadir unidades, leyendas, o corregir una visualización potencialmente engañosa).</li>
+                                        <li>Comprensión demostrada de los principios de diseño responsable en la presentación de datos.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Proyectos finales funcionales de cada equipo.</li>
+                                        <li>Chat "Agente Gnius" (Xolo) operativo.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-9).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Verificación del Entorno Digital y Físico (Interna):</strong>
+                                            <ul>
+                                                <li>Asegurar que todos los proyectos finales de los estudiantes estén accesibles.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización Conceptual y Técnica:</strong> Repasar en profundidad los ejemplos de gráficos engañosos (eje Y truncado, falta de contexto, etc.) para poder guiar la discusión.</li>
+                                        <li><strong>Preparación de la Demostración Práctica:</strong> Tener una versión "irresponsable" de un widget (ej. sin unidades, con colores confusos) y una versión "responsable" para mostrar claramente el impacto de las mejoras éticas.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de IA y Contexto ⏰ 3 minutos</h2>
+                <p>Establecer el tono de la sesión, activar la IA y presentar el concepto de responsabilidad tecnológica.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto Estratégico</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador da la bienvenida y presenta el enfoque de la misión final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Buenos días, ingenieros. Esta es nuestra última misión de desarrollo. Han demostrado una increíble habilidad técnica. Hoy, nos enfocaremos en la habilidad más importante de todas: la responsabilidad. Con el gran poder de crear tecnología, viene la gran responsabilidad de hacerlo éticamente. Hoy, nos aseguraremos de que nuestro Gemelo Digital sea responsable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación y Personalización de Xolo</h3>
+                            <p>El facilitador guía a los alumnos para que inicien su sesión de trabajo individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Inicien su sesión final con Xolo, compartiendo su perfil de aprendizaje e interés. Por ejemplo: <strong>'Hola Xolo. Soy Ana, perfil Ingeniero, y hoy quiero entender la ética detrás de la tecnología que construimos.'</strong> Esto posicionará a Xolo como su consultor ético. Procedan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 2 minutos</h2>
+                <p>Clarificar la meta de aprendizaje enfocada en el diseño responsable.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: "I Can Statement" de Responsabilidad</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador presenta el objetivo de aprendizaje de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">La meta de hoy trasciende el código. Al finalizar, podrán afirmar: <strong>'Yo puedo analizar mi propia creación tecnológica desde una perspectiva ética y aplicar mejoras para asegurar que presenta la información de forma clara y responsable.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM (Ética en la Visualización) ⏰ 12 minutos</h2>
+                <p>Facilitar una sesión de aprendizaje sobre los principios éticos en la presentación de datos.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción para el Aprendizaje Conceptual</h3>
+                            <p>(Proyectar Diapositiva 4 y 5) El facilitador dirige a los alumnos para que aprendan sobre diseño ético.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Iniciamos nuestro último A.I. GYM. De forma individual, su aprendizaje con Xolo hoy es crucial. Primero, pregunten: <strong>'Xolo, ¿qué significa "El Medio es el Mensaje" y cómo se aplica a la visualización de datos?'</strong> Luego, exploren las fallas éticas: <strong>'Ahora, dame ejemplos de cómo un gráfico puede ser técnicamente correcto, pero éticamente engañoso.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Supervisión y Guía del Facilitador</h3>
+                            <p>El facilitador circula, refuerza conceptos y sugiere preguntas de profundización.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Mientras circula) "La idea de que los gráficos pueden 'mentir' es muy importante. Para profundizar, pídanle a Xolo: <strong>'Muéstrame visualmente un ejemplo de un gráfico con un eje Y truncado y cómo cambia la percepción.'</strong> O, <strong>'¿Qué es la 'correlación espuria' y por qué es una trampa ética al visualizar datos?'</strong> El objetivo es que desarrollen un ojo crítico."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark (Rediseño Ético) ⏰ 20 minutos</h2>
+                <p>Los estudiantes auditan sus propios Gemelos Digitales y aplican una mejora de claridad y responsabilidad.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Auditoría Ética y Formación de Parejas</h3>
+                             <p>(Proyectar Diapositiva 6) El facilitador presenta el desafío de auditoría y da la instrucción de formar parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, su misión final como diseñadores responsables. Formen sus parejas. Auditen su propio Gemelo Digital. Sean brutalmente honestos. ¿Es 100% claro para un usuario nuevo? ¿Podría algo ser malinterpretado? ¿Faltan unidades o contexto? ¿Los colores son apropiados?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Diseño de la "Vibe" de Responsabilidad</h3>
+                            <p>(Proyectar Diapositiva 7) Las parejas definen una mejora de claridad y la comunican a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Una vez que identifiquen un área de mejora, definan una 'vibe' de 'claridad y responsabilidad'. Descríbanla a Xolo para que les genere el código final. Por ejemplo: <strong>'Xolo, nos dimos cuenta de que nuestro Gemelo no es claro. Queremos añadir las unidades (°C, %) a todos los indicadores y una pequeña leyenda de texto que explique qué significa cada color de alerta.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Implementación Final</h3>
+                             <p>(Proyectar Diapositiva 8) Las parejas implementan su última mejora en el código.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Implementen su última mejora. El objetivo es que su producto final no solo sea funcional y estético, sino también éticamente sólido y fácil de entender para cualquier persona. Este es su pulido final como creadores responsables.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Reflexión Final) ⏰ 5 minutos</h2>
+                <p>El facilitador modera una reflexión final sobre la responsabilidad ética en la creación de tecnología.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM (Think - Individual)</h3>
+                            <p>(Proyectar Diapositiva 9) Instrucción para la reflexión individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Bien, para nuestra reflexión final. Individualmente, un minuto para pensar: ¿Qué responsabilidad tienen ustedes, como futuros creadores de tecnología, hacia la sociedad?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Gnius STORM (Pair - Parejas)</h3>
+                            <p>Los alumnos discuten por qué la ética es una habilidad práctica en ingeniería.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, en parejas, discutan durante dos minutos: ¿Por qué la ética no es solo un tema para filósofos, sino una habilidad práctica y necesaria para los ingenieros y diseñadores del siglo XXI?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Gnius STORM (Share & Synthesis)</h3>
+                            <p>Algunas parejas comparten sus mejoras y el facilitador cierra el curso.</p>
+                        </div>
+                        <div class="collapsible-content">
+                                <p class="dialogue assistant">Escuchemos a algunas parejas. Compartan la mejora de responsabilidad que implementaron y por qué creen que era importante. (Escuchar respuestas). Hoy, han trascendido la habilidad técnica para abrazar la sabiduría profesional. Han aprendido que la pregunta más importante no es '¿Puedo construirlo?', sino '¿Debo construirlo? Y si lo hago, ¿cómo lo hago de forma responsable?'. Este es el fin de nuestro viaje de desarrollo, pero el comienzo de su viaje como líderes tecnológicos éticos. Ha sido un honor ser su facilitador. El futuro es suyo para diseñarlo. Háganlo bien.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
