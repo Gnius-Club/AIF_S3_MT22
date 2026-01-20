@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playbook-S3-TM21.5</title>
+    <title>Playbook-S3-TM22</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1><span class="book-icon">📋</span> <strong>Playbook: Misión 21.5 - 3o de Secundaria</strong></h1>
+        <h1><span class="book-icon">📋</span> <strong>Playbook: Misión 22 - 3o de Secundaria</strong></h1>
         <div class="header-widgets">
             <div class="timer-container">
                 <span id="global-timer">⏱️ 40:00</span>
@@ -51,7 +51,7 @@
                 <div class="command-section">
                     <h3>🎯 Objetivo de Aprendizaje</h3>
                     <div class="objective-box">
-                        <p><strong>Los estudiantes podrán:</strong> Usar MakeCode y Thingspeak para realizar pruebas de usabilidad e iterar sus proyectos basados en feedback y comprender el diseño centrado en el usuario y la responsabilidad al interpretar datos.</p>
+                        <p><strong>Los estudiantes podrán:</strong> usar el software MakeCode y Thingspeak con el Smart Science IOT Kit para mejorar la interfaz de su Gemelo Digital con un enfoque ético y comprender la responsabilidad del diseñador en la toma de decisiones basada en datos.</p>
                     </div>
                 </div>
                 <div class="command-section xolo-prompt">
@@ -63,7 +63,7 @@
                                 <i class="fas fa-copy"></i> Copiar
                             </button>
                         </div>
-                        <pre id="main-prompt">Explícame qué es una prueba UX y por qué “si funciona” no significa “si se entiende”. Guíame a usar una lista simple de evaluación: claridad del propósito, comprensión de estados, legibilidad, consistencia, y acción sugerida (¿qué haría yo con esta info?). Acompáñame a redactar feedback útil: observación → impacto → sugerencia concreta.</pre>
+                        <pre id="main-prompt">Explícame por qué la forma en que se muestran los datos influye en cómo las personas los interpretan y toman decisiones. Analicemos ejemplos simples: gráficos sin unidades, colores alarmistas, escalas confusas. Guíame a reflexionar sobre la idea “el medio es el mensaje”: cómo una interfaz puede exagerar, minimizar o distorsionar un problema aunque los datos sean correctos. Luego acompáñame a definir criterios de visualización responsable para mi Gemelo Digital: claridad, contexto, límites seguros, y advertencias comprensibles.</pre>
                     </div>
                 </div>
                 <div class="command-section">
@@ -72,17 +72,17 @@
                         <div class="essential-card">
                             <div class="essential-icon">🎓</div>
                             <h4>Concepto Clave</h4>
-                            <p>Diseño centrado en el usuario: Crear soluciones pensando siempre en la persona que las va a usar, asegurando que la información sea clara para evitar errores de interpretación.</p>
+                            <p>Ética de Visualización: Es entender que la forma en que mostramos información (colores, tamaños, leyendas) puede hacer que las personas tomen decisiones correctas o se confundan, por lo que debemos ser honestos al diseñar.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">🔧</div>
                             <h4>Habilidad Técnica</h4>
-                            <p>Realizar pruebas de usabilidad para mejorar cómo se comunica la información en un sistema IOT.</p>
+                            <p>Usar herramientas de diseño de interfaz para crear pantallas claras con unidades y alertas comprensibles.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">🧪</div>
                             <h4>Experimentación</h4>
-                            <p>Probar con diferentes formas de visualizar datos para entender las limitaciones de la claridad informativa.</p>
+                            <p>Probar con diferentes colores de alerta y escalas de gráficos para entender limitaciones en la interpretación de datos.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">💬</div>
@@ -98,13 +98,13 @@
                         <label><input type="checkbox"> Internet estable + Gnius Space con XOLO activo</label>
                         <label><input type="checkbox"> Micro:Bit (1 por cada 2 estudiantes)</label>
                         <label><input type="checkbox"> Smart Science IOT Kit + Sensores extra (1 por cada 2 estudiantes)</label>
-                        <label><input type="checkbox"> Acceso a MakeCode (https://makecode.microbit.org/) con extensión IOT-Environment instalada</label>
+                        <label><input type="checkbox"> Acceso a MakeCode (https://makecode.microbit.org/) con extensión IOT Kit instalada</label>
                         <label><input type="checkbox"> Acceso a Thingspeak (https://thingspeak.mathworks.com/)</label>
-                        <label><input type="checkbox"> Hojas de papel para registro de feedback</label>
+                        <label><input type="checkbox"> Cables de conexión y baterías cargadas</label>
                         <label><input type="checkbox"> ⚠️ Esta misión usa programación con BLOQUES en MakeCode</label>
-                        <label><input type="checkbox"> 📋 Para agregar extensión: En MakeCode → Extensiones → Buscar 'IOT-Environment' → Agregar</label>
+                        <label><input type="checkbox"> 📋 Para agregar extensión: En MakeCode → Extensiones → Buscar 'IOT' o 'SmartScience' → Agregar</label>
                     </div>
-                    <p class="care-reminder"><strong>🛡️ Cuidado del equipo:</strong> Manipular con delicadeza, no mojar, verificar conexiones y desconectar al terminar.</p>
+                    <p class="care-reminder"><strong>🛡️ Cuidado del equipo:</strong> Manipular los sensores con delicadeza, no mojar los componentes electrónicos, verificar las conexiones del IOT Kit y desconectar la batería al terminar.</p>
                 </div>
                 <div class="command-section">
                     <h3>🗓️ Secuencia de la Misión (40 min)</h3>
@@ -122,7 +122,7 @@
                             <div class="timeline-content">
                                 <strong>A.I. Gym</strong>
                                 <span class="time-badge">8 min</span>
-                                <p>Los estudiantes abren el chat con XOLO y aprenden sobre el diseño centrado en el usuario y pruebas UX (sin prompt específico).</p>
+                                <p>Los estudiantes abren el chat con XOLO y aprenden sobre la ética de la visualización de datos (sin prompt específico).</p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -156,8 +156,8 @@
                     <div class="troubleshooting-list">
                         <ul>
                             <li><strong>Si los alumnos no pueden ingresar a Gnius Space:</strong> Activa XOLO SOS en <a href="https://xolo.gnius.club" target="_blank">xolo.gnius.club</a> para continuar la misión sin interrumpir la clase.</li>
-                            <li><strong>Si el Micro:bit no responde:</strong> Verificar batería o conexión USB. Intentar descargar el programa nuevamente.</li>
-                            <li><strong>Si los datos no suben a Thingspeak:</strong> Verificar la API Key y la conexión a internet del kit IOT.</li>
+                            <li><strong>Si el Micro:Bit no envía datos a Thingspeak:</strong> Verificar que la clave API (Write API Key) sea la correcta y que el módulo Wi-Fi del IOT Kit esté bien conectado.</li>
+                            <li><strong>Si los sensores no marcan valores reales:</strong> Revisar que estén conectados en los pines correctos definidos en MakeCode.</li>
                             <li><strong>Si hay errores en el código:</strong> Recordar a los estudiantes que XOLO puede ayudar a depurar. Pídeles que copien el error y se lo muestren a XOLO.</li>
                         </ul>
                     </div>
@@ -179,14 +179,14 @@
                             <li>Dar la bienvenida con energía.</li>
                             <li>Pedir a los alumnos que ingresen a Gnius Space.</li>
                             <li>Proyecta diapositiva 1 con el I Can Statement.</li>
-                            <li>Motiva: "Hoy le daremos claridad y propósito a sus sistemas IOT".</li>
+                            <li>Motiva: "Hoy le daremos sentido ético y claridad visual a sus Gemelos Digitales.".</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
                         <h4>🤖 Rol de XOLO</h4>
                         <ul>
                             <li>XOLO ya está listo y conoce a cada estudiante.</li>
-                            <li>Sabe que hoy toca aprender sobre Diseño centrado en el usuario y pruebas UX.</li>
+                            <li>Sabe que hoy toca aprender sobre Ética de la visualización de datos y responsabilidad del diseñador.</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
@@ -202,8 +202,8 @@
                     <h4>📊 Diapositiva 1: I Can Statement</h4>
                     <div class="slide-content">
                         <p><strong>🎯 Hoy seré capaz de:</strong></p>
-                        <p class="highlight-text">🤖 A mejorar la experiencia del usuario para que la información sea útil y clara.</p>
-                        <p><strong>Aplicación real:</strong> Los diseñadores de interfaces en aplicaciones médicas usan esta tecnología para evitar errores humanos al leer datos críticos.</p>
+                        <p class="highlight-text">🤖 A mejorar la interfaz de mi Gemelo Digital para que la información sea honesta y fácil de entender.</p>
+                        <p><strong>Aplicación real:</strong> Los analistas de datos en centros de salud usan esta tecnología para mostrar alertas claras que salvan vidas sin causar pánico innecesario.</p>
                         <p><strong>Tu aliado:</strong> XOLO ya sabe qué vas a aprender hoy. ¡Solo abre el chat y comienza!</p>
                     </div>
                 </div>
@@ -232,8 +232,8 @@
                         <p class="xolo-status">✅ XOLO ACTIVO</p>
                         <ul>
                             <li>Reconoce al estudiante y sus preferencias de aprendizaje.</li>
-                            <li>Explica cómo evaluar la claridad de una interfaz y por qué el feedback es vital.</li>
-                            <li>Introduce el concepto de diseño centrado en el usuario y responsabilidad de datos.</li>
+                            <li>Explica cómo el diseño de una interfaz puede exagerar o minimizar un problema.</li>
+                            <li>Introduce el concepto de visualización responsable y criterios de claridad.</li>
                             <li>Responde dudas sobre los conceptos.</li>
                         </ul>
                     </div>
@@ -241,8 +241,8 @@
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
                             <li>Abrir el chat con XOLO y saludarlo.</li>
-                            <li>Aprender a usar una lista de evaluación UX para analizar su proyecto.</li>
-                            <li>Aprender sobre la importancia de que la información se entienda, no solo que funcione.</li>
+                            <li>Aprender a usar herramientas de diseño para mejorar la comunicación técnica.</li>
+                            <li>Aprender sobre la responsabilidad social del creador de tecnología.</li>
                             <li>Despejar todas sus dudas preguntando a XOLO.</li>
                         </ul>
                     </div>
@@ -255,14 +255,14 @@
                             <pre>"¡Hola XOLO! Estoy listo para aprender."</pre>
                         </div>
                         <p class="highlight-text" style="margin-top: 1rem;">✨ XOLO ya sabe quién eres y qué tema toca hoy. ¡Solo empieza a conversar!</p>
-                        <p class="highlight-text">🎯 Objetivo: Aprender a usar pruebas UX para mejorar la comunicación de información y el diseño centrado en el usuario.</p>
+                        <p class="highlight-text">🎯 Objetivo: Aprender a usar herramientas de visualización para crear interfaces éticas y comprender el impacto social de los datos.</p>
                     </div>
                 </div>
                 
                 <div class="optional-script">
                     <button class="collapsible-button">📖 Ver guion detallado (opcional)</button>
                     <div class="collapsible-content">
-                        <p class="dialogue assistant">¡Hola a todos! Hoy vamos a dar un paso gigante en sus proyectos. No basta con que el código funcione; lo más importante es que las personas entiendan qué está pasando con los datos que recolectan sus sensores. Vamos a aprender sobre UX o Experiencia de Usuario. XOLO ya los conoce y sabe exactamente qué les va a enseñar hoy. No necesitan escribir un prompt especial, solo empiecen a platicar con él saludándolo. Pregúntenle por qué "si funciona" no siempre significa "se entiende". ¡Adelante, abran su chat y descubran cómo hacer sus gemelos digitales más humanos!</p>
+                        <p class="dialogue assistant">Ahora vamos a aprender algo fundamental: no solo importa que el código funcione, sino cómo presentamos la información al mundo. Abran su chat con XOLO y salúdenlo. XOLO ya los conoce y sabe exactamente qué les va a enseñar hoy. No necesitan escribir un prompt especial, solo empiecen a platicar con él sobre cómo los colores o la falta de unidades pueden confundir a las personas. Vamos a descubrir cómo darle una capacidad ética a su Gemelo Digital. Pregúntenle todo lo que necesiten sobre cómo ser diseñadores responsables.</p>
                     </div>
                 </div>
             </div>
@@ -289,7 +289,7 @@
                         <h4>🤖 Rol de XOLO</h4>
                         <p class="xolo-status">✅ XOLO ACTIVO</p>
                         <ul>
-                            <li>Ayuda a desarrollar una idea y un VIBE que aplique pruebas de usabilidad.</li>
+                            <li>Ayuda a desarrollar una idea y un VIBE que aplique mejoras éticas en la interfaz.</li>
                             <li>Entrega el GCS de la idea del genio.</li>
                             <li>Resuelve errores de sintaxis o lógica.</li>
                         </ul>
@@ -297,10 +297,10 @@
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Trabajar con XOLO una idea y un VIBE para usar el checklist UX en su gemelo digital.</li>
+                            <li>Trabajar con XOLO una idea y un VIBE para usar leyendas y umbrales claros.</li>
                             <li>Traducir el GCS de XOLO a bloques en MakeCode.</li>
                             <li>Depurar su programa con XOLO si hay errores.</li>
-                            <li>Conectar sus sensores al IOT Kit y probar.</li>
+                            <li>Conectar los sensores del IOT Kit y probar la visualización en tiempo real.</li>
                         </ul>
                     </div>
                 </div>
@@ -309,29 +309,29 @@
                     <div class="slide-content">
                         <p><strong>1. 💬 Pide a XOLO que te ayude a crear:</strong></p>
                         <div class="prompt-box">
-                            <pre>"Ayúdame a preparar mi gemelo para ser probado por otro equipo: define 3 tareas para el usuario (ej. “identifica estado”, “detecta anomalía”, “decide acción”). Luego guíame para recoger feedback y convertirlo en 2–3 mejoras aplicables (texto, jerarquía, colores, mensajes). Indícame cómo documentar “antes vs después” y justificar por qué mejora la experiencia."</pre>
+                            <pre>"Ayúdame a revisar críticamente mi Gemelo Digital final y detectar al menos una mejora ética o funcional necesaria (ej. añadir unidades visibles, una leyenda clara, colores neutros, un rango de “alerta segura” bien explicado). Luego guíame para implementar esa mejora en el Plugin (HTML/CSS/JS) y justificarla: ¿qué posible malentendido evita?, ¿qué decisión ayuda a tomar mejor? Indícame cómo documentar el antes y después como evidencia de diseño responsable."</pre>
                         </div>
                         <p style="margin-top: 1.5rem;"><strong>2. 🔬 Experimenta y descubre con tu programa:</strong></p>
                         <ul>
-                            <li>¿El usuario pudo completar las 3 tareas sin tu ayuda?</li>
-                            <li>¿Qué pasa si el sensor detecta un valor fuera de lo común, la interfaz lo comunica claramente?</li>
-                            <li>¿Funciona igual la comprensión de los datos en la pantalla del Micro:bit vs en el dashboard de Thingspeak?</li>
-                            <li>¿Cómo ayuda el diseño centrado en el usuario a que tu sistema sea más fácil de usar?</li>
-                            <li>¿Qué responsabilidad tienes tú como programador si alguien toma una decisión equivocada por culpa de una interfaz confusa?</li>
+                            <li>¿Los datos se visualizan correctamente en la pantalla de Thingspeak?</li>
+                            <li>¿Qué pasa si los sensores detectan un valor fuera del rango normal pero no hay una leyenda que lo explique?</li>
+                            <li>¿Funciona igual la interpretación del usuario con un color rojo de alerta vs un color neutro?</li>
+                            <li>¿Cómo influye la interfaz que diseñaste en la toma de decisiones de una persona que no sabe de tecnología?</li>
+                            <li>¿Por qué consideras que el diseñador tiene una responsabilidad ética al usar la IA para mostrar datos sociales?</li>
                         </ul>
                     </div>
                 </div>
                 <div class="optional-script">
                     <button class="collapsible-button">📖 Ver guion detallado (opcional)</button>
                     <div class="collapsible-content">
-                        <p class="dialogue assistant">¡Es hora de crear y mejorar! Van a preparar su "gemelo digital" para que otro equipo lo pruebe. Imaginen que están diseñando un tablero de control para una estación espacial o un hospital; ¡un error de lectura sería fatal! Usen el prompt en pantalla para que XOLO los guíe en definir tareas para sus usuarios y recolectar feedback real. Por ejemplo, podrían pedirle a un compañero que identifique si una planta necesita agua solo mirando su dashboard en Thingspeak. Si tienen errores o dudas, pregúntenle a XOLO, él los ayudará a depurar. Al final, deberán documentar qué mejoraron basándose en lo que sus compañeros les dijeron. ¡A innovar con empatía!</p>
+                        <p class="dialogue assistant">¡Es hora de crear! Vamos a llevar sus Gemelos Digitales al siguiente nivel de profesionalismo. El flujo es simple: ideen con XOLO una mejora ética, definan el VIBE de su interfaz, reciban su GCS, pásenlo a MakeCode y experimenten. Por ejemplo, podrían añadir una alerta que explique claramente qué hacer si la temperatura sube demasiado, usando colores que informen sin asustar. Prueben sus sensores y vean cómo cambian las gráficas. Si tienen errores o dudas, pregúntenle a XOLO, él los ayudará a depurar. Al final, asegúrense de devolver el hardware en orden.</p>
                     </div>
                 </div>
                 <div class="challenge-prompt">
                     <h4>🚀 Prompt de Desafío (para quienes terminen rápido)</h4>
                     <div class="prompt-box">
                         <p><strong>Si ya experimentaste con todo, pregunta a XOLO:</strong></p>
-                        <p class="challenge-text">"Ya probé con las mejoras básicas de UX. ¿Puedes enseñarme cómo hacer que mi Micro:bit use sonidos o iconos personalizados para alertar sobre estados críticos de forma más intuitiva?"</p>
+                        <p class="challenge-text">"Ya probé con las mejoras básicas de UI. ¿Puedes enseñarme cómo hacer que mi Gemelo Digital envíe una notificación automática o use un semáforo de colores dinámico basado en la gravedad del dato?"</p>
                     </div>
                 </div>
             </div>
@@ -365,7 +365,7 @@
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
                             <li>Demuestra su programa funcionando a otra pareja.</li>
-                            <li>Explica qué elementos de su interfaz se entienden bien.</li>
+                            <li>Explica qué elementos de su interfaz comunican bien los datos.</li>
                             <li>Comparte un descubrimiento interesante.</li>
                             <li>Da retroalimentación positiva al compañero.</li>
                         </ul>
@@ -376,12 +376,12 @@
                     <div class="slide-content tps-structure">
                         <div class="tps-phase">
                             <h4>🤔 THINK (30 seg)</h4>
-                            <p>Reflexión individual: ¿Qué elementos comunicaron mejor la información de tu hardware? ¿Qué te sorprendió?</p>
+                            <p>Reflexión individual: ¿Qué elementos visuales ayudan mejor a entender los datos de tu Micro:Bit? ¿Qué te sorprendió?</p>
                         </div>
                         <div class="tps-phase">
                             <h4>👥 PAIR (2 min)</h4>
                             <p>Con otra pareja: Demuestren su programa y expliquen su experiencia</p>
-                            <p class="highlight-text">Frase guía: "Mi Micro:bit e IOT Kit comunicaron mejor los estados de los sensores. Me sorprendió que los usuarios se confundieran con los colores/mensajes iniciales."</p>
+                            <p class="highlight-text">Frase guía: "Mi Micro:Bit muestra datos con unidades y colores claros. Me sorprendió que cambiar la escala del gráfico hace que el problema se vea muy diferente."</p>
                         </div>
                         <div class="tps-phase">
                             <h4>💬 SHARE (2 min)</h4>
@@ -442,4 +442,3 @@
     </div>
     <script src="script.js"></script>
 </body>
-</html></html>
